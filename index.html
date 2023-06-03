@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>
+        *{
+            padding-left: 0px;
+           
+        }
+        h4{
+            text-align: center;
+            color: red;
+            
+        }
+        h4:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        .bigbox{
+            /* border: 2px solid red; */
+            
+            width: auto;
+            height: 145px;
+            background-color: black;
+            display: flex;
+            align-items:flex-start;
+            
+        }
+        .img{
+            
+            height: 150px;
+            width: 13%;
+            background-color: antiquewhite;
+            
+        }
+        .name{
+            border: 2px solid black;
+            height: 50px;
+            width: auto;
+            margin: 50px;
+           color: rgb(232, 173, 72);
+            padding-top: 18px;
+            font-size: 45px;
+            padding-right: 6px;
+            
+        }
+        .name:hover{
+            color: white;
+        }
+        .navigation{
+            /* border: 2px solid seashell;
+            border-radius: 5px; */
+            height: 30px;
+            width: fit-content;
+            padding-left: 8px;
+            padding-top: 4px;
+            display: flex;   
+            align-items: center;
+            
+            position: sticky;
+            top: 3px;
+            left: 500px;
+            
+        }
+        .navigation:hover{
+        }
+        ul{
+            list-style: none;
+            display: flex ;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            padding: 18px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            color: wheat;
+            font-size: 15px;
+        }
+        a:hover{
+            color: white;
+            font-size: 18px;
+            border: 1px solid white;
+            border-radius: 20px;
+            
+                
+        }
+        button{
+            margin: 9px; 
+            border-radius: 8px;
+            background-color: rgb(230, 56, 85);
+            position: sticky;
+            top: 3px;
+            left: 500px;
+        }
+        .button:hover{
+            border: 0px solid white;
+            
+        }
+        .content{
+            height: fit-content;
+            width: 100%;
+            display: flex;
+            /* border: 2px solid; */
+            background-color: black;
+        }
+        .site{
+            height:fit-content;
+            /* width: fit-content; */
+            width:auto;
+            /* border: 2px solid; */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        .box1{
+            /* background-color: brown; */
+            background-color: black;
+            width: 50%;
+            line-height: 21px;
+            height: fit-content;
+            color: white;
+            padding: 4px;
+            font-size: 17px;
+            
+        }
+        .box1:hover{
+            line-height: 22px;
+        }
+        .box2{
+            /* background-color: blue; */
+            /* display: inline-block; */
+            width: 50%;
+            height:450px;
+            /* border: 2px solid green; */
+            
+           
+        }
+        img{
+            height: 150px;
+            width: 100%;
+        }
+        .builder{
+            height: 100%;
+            width: 100%;
+        }
+        .facts{
+            height: auto;
+            width: 100%;
+            
+            background-image: url(https://wallpaperaccess.com/full/834264.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 2px solid white;
+            margin-top:20px;
+            border-radius: 40px;
+            background-position: right;
+        }
+        .facts:hover{
+            border: 2px solid red;
+            color: red;
+        }
+        ol{
+            padding-left: 17px;
+        }
+        .bmi{
+            background-color: red;
+            height: auto;
+            color: bisque;
+        }
+        .girl{
+           height: 100%;
+           padding-left: 0px;
+        }
+        .calculator{
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+            font-size: larger;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        iframe{
+            border-radius: 13px;
+            
+        }
+        .bottom{
+            border: 1px solid rgba(20,28,58,.9);
+            background-color: rgba(20,28,58,.9);
+            height: 280px;
+            /* display: inline-block;    */
+        }
+        .text{
+            border: 2px solid wheat;
+            width: 40%;
+            height: 250px;
+            display: flex;
+            
+        }
+        h5{
+            color: white;
+            font-size: 18px;
+            word-spacing: 2px;
+            padding-left: 20px;
+            display: inline;
+            
+        }
+        .follow{
+            display: flex;
+            justify-content: space-around;
+            width: 350px;
+            /* display: inline; */
+        }
+        .logo{
+            /* border: 1px solid white; */
+            height: 53px;
+            width: 55px;
+            border-radius: 4px;
+            display: inline-block;
+            
+        }
+        .followon{
+            height: 53px;
+            width: 55px;
+            border-radius: 10px;
+        }
+        .avilablein{
+            text-align: center;
+            color: bisque;
+        }
+        .socialmedia:hover{
+            border: 0px     ;
+        }
+        .followon:hover{
+            height: 56px;
+            width: 58px;
+        }
+        .app{
+            
+            height: 50px;
+            width: 100px;
+        }
+        .stores{
+            display: inline-block;
+            height: 50px;
+            width: 130px;
+          
+        }
+        .storeimage{
+            height: 50px;
+            width: 130px;
+            border-radius: 6px;
+            
+        }
+    </style>
+</head>
+<body><div class="site">
+    <div class="bigbox">
+        <div class="img"><img  class="gym"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtUVoFWHSdpwJF1AKEBamQJhyQ2s0FqWKiMi4reAO5A&usqp=CAU&ec=48665698" alt="logo"></div>
+        <div class="name">KING's GYM</div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a class="menu"href="#">Home</a></li>
+                    <li><a class="menu"href="#">Products</a></li>
+                    <li><a class="menu"href="#">Offers-Benefits</a></li>
+                    <li><a class="menu"href="#">About Us</a></li>
+                    <li><a class="menu"href="#">Feedback</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+        <button><a class="button"href="#">Login</a></button>
+        <button><a class="button" href="#">Sign In</a></button>
+
+    </div>
+    <div class="content">
+        <div class="box1"><h4>INTRODUCTION</h4>
+            A gymnasium, also known as a gym, is an indoor location for athletics. The word is derived from the ancient Greek term "gymnasium". They are commonly found in athletic and fitness centers, and as activity and learning spaces in educational institutions.
+            In the 18th century, Salzmann, a German clergyman, opened a gym in Thuringia teaching bodily exercises, including running and swimming. Clias and Volker established gyms in London, and in 1825, Doctor Charles Beck, a German immigrant, established the first gymnasium in the United States.
+            <div class="facts">
+                <h4>FACTS about EXCERSICES</h4>
+                <ol>
+                    <li>Listening to music while exercising can improve work out performance by 15%.</li>
+                    <li>Cardiovascular exercise helps create new brain cells. This enhances brainpower and brain activity.</li>
+                    <li>If you exercise 3 times a week for 45 minutes, you can help prevent signs of ageing.</li>
+                    <li>Exercising regularly helps boost your immune system.</li>
+                    <li>Working out enables you to sleep better</li>
+                </ol>
+            </div>    <br><br>
+            <img class="girl" src="https://s1.1zoom.me/big0/18/Fitness_Human_back_Barbell_Black_background_512581_1280x847.jpg">
+            
+        </div>
+        <div class="box2"><img class="builder" src="https://wallpapercave.com/wp/wp7578910.jpg"><br><br>
+        <p class="calculator">BMI CALCULATOR</p>
+        <iframe width="93%" height="70%" src="https://www.calculator.net/bmi-calculator.html?ctype=metric&cage=19&csex=m&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=184&ckg=80&printit=0&x=33&y=4"></iframe>
+        
+        
+        </div>
+        
+    </div>
+
+    <div class="bottom">
+        <h5>Connect With Us</h5><br><br>
+        <div class="follow">
+            <div class="logo">  
+                <a href="#" class="socialmedia"><img class="followon" src="https://img.freepik.com/premium-vector/blue-social-media-logo_197792-1759.jpg"></a>
+            </div>
+            <div class="logo">
+                <a href="#" class="socialmedia">
+                <img class="followon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png "></a>
+            </div>
+            <div class="logo">
+                <a href="#" class="socialmedia">
+                <img class="followon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh46i9wH7x3hhR2ertwF1LA1uBPVB0KThqp0hfp3hgxw&s "></a>
+            </div>
+            <div class="logo">
+                <a href="#" class="socialmedia">
+                <img class="followon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwVTEoBwsnmGpUsqnqWw34py9CukENbzZVupwmDPdmQ&s">   
+            </div>
+        </div>
+        <h5 style="display: block;">Download the app</h5>
+        <div class="app" style="display: inline;">
+            <div class="stores">
+                <img class="storeimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2glWTTf5Om_ybxxrcI3k32kGvnpgW1OKQfnKWkAlQVg&usqp=CAU&ec=48665698">
+            </div>
+            <div class="stores">
+                <img class="storeimage"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/800px-Download_on_the_App_Store_Badge.svg.png">
+            </div>
+        </div>
+</div>
+    
+</body>
+</html>
